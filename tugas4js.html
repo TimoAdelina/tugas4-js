@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="kalkulator">
+        <table  style="width:80%;background-color:rgb(125, 131, 145); border:2px dotted">
+   <tr style="color:rgb(204, 180, 43)">
+    <td  >Angka 1:
+   <input type="text" name="angka" placeholder="masukkan angka pertama"></td>
+   <td> Angka 2:
+   <input type="text" name="angka2" placeholder="masukkan angka kedua"></td>
+   <td >hasil:
+   <input type="" name="hasil" disabled placeholder="hasil"></td>
+</tr>
+<th colspan='1'>
+ <td ><button type="button" name="btn_tambah" onclick="tambah()">+</button>
+    <button type="button" name="btn_kurang" onclick="kurang()">-</button>
+    <button type="button" name="btn_kali" onclick="kali()">X</button>
+    <button type="button" name="btn_bagi" onclick="bagi()">:</button>
+    <button type="button" name="btn_pangkat" onclick="pangkat()">^</button></td>
+</th>
+</table>
+</form>
+<h1 id="hasil"></h1>
+<script src="js/kalkulator.js"></script>
+</body>
+</html>
